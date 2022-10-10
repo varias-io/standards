@@ -65,7 +65,7 @@ feel free to be detailed.
 
 [Ticket: X]
 ```
-This template can be set as the default message, per project, when running `git commit` by using the following command: `git config commit.template ./git/.gitmessage.txt`.
+This template can be set as the default message, per project, when running `git commit` by using the following command: `git config commit.template ./git/.gitmessage.txt`
 
 In short:
 - Separate subject from body with a blank line
