@@ -21,6 +21,9 @@
 ## Motivation
 <!-- What is the current state of the world? Why is this change being proposed? -->
 
+## Design
+<!-- How will this be implemented? -->
+
 ## Drawbacks
 <!-- What are the possible drawbacks of this proposal? ex. Higher costs, less flexibility for the developer, etc... -->
 The drawbacks for this proposal could be:
