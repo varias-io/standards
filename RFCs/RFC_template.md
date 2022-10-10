@@ -1,4 +1,4 @@
-# RFC: PHP Coding Standards
+# RFC: Title
 
 **Primary author(s)**: Author Name
 
