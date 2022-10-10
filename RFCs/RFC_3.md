@@ -65,9 +65,9 @@ feel free to be detailed.
 
 [Ticket: X]
 ```
-This template can be set as the default message, per project, when running `git commit` by using the following command: `git config commit.template ./git/.gitmessage.txt`
+This template can be set as the default message, per project, when running `git commit` by using the following command: `git config commit.template ./git/.gitmessage.txt`. To use a different editor, for example VS Code, run the following command: `git config --global core.editor "code --wait"`.
 
-In short:
+Additional short rules to follow when using this convention:
 - Separate subject from body with a blank line
 - Limit the subject line to 50 characters
 - Capitalize the subject line
