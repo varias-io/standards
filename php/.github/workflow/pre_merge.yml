@@ -1,0 +1,26 @@
+name: Pre-merge style fixer
+
+on:
+  pull_request: ~
+
+jobs:
+  phpcs:
+    name: PHPCS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "actions/checkout@v2"
+      - uses: "shivammathur/setup-php@v2"
+        with:
+          php-version: "8.1"
+          extensions: ctype, fileinfo, imagick, json, mbstring, openssl, pdo, tokenizer, xml
+      - uses: "ramsey/composer-install@v2"
+        with:
+          working-directory: "api/src"
+          composer-options: "--no-scripts"
+      - uses: "ramsey/composer-install@v2"
+        with:
+          working-directory: "api/src/tools/php-cs-fixer"
+          composer-options: "--no-scripts"
+      - name: "Run PHPCS"
+        run: |
+          composer phpcs
