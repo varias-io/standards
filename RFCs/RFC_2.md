@@ -18,11 +18,12 @@ Use one convention when naming branches or PR's.
 
 ## Goal
 <!-- What problems are you trying to solve? What problems are you not trying to solve? -->
-The goal is to have one naming convention for PR's and branches such that it looks nice in git(hub).
+The goal is to have one naming convention for PR's and branches such that it creates a clearer overview of the branches and allows for easier searching, by example on ticket number. Coincidentally this also enhances the developer experience in the terminal when using the autocomplete feature.
 
 ## Motivation
 <!-- What is the current state of the world? Why is this change being proposed? -->
-There are several types of names beings used without a clear structure. Some even use the name to indicate if it is an enchancement, feature, bugfix, etc... This does not look nice or organised.
+There are several types of names beings used without a clear structure. Some even use the name to indicate if it is an enchancement, feature, bugfix, etc... This does not give an organised or professional impression. Cleaning this mess up would, in time, help enhance the education of our developers and keeps our codebase organised.
+
 
 ## Design
 <!-- How will this be implemented? -->
@@ -46,3 +47,4 @@ The drawbacks for this proposal could be:
 
 ## Revisions
 1. RFC created 
+2. Updated the goal and motivation
