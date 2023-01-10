@@ -1,0 +1,7 @@
+/vendor
+/tools/*/vendor
+/.idea
+/.vscode
+/nbproject
+/.vagrant
+.php-cs-fixer.cache
