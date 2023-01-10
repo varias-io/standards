@@ -27,7 +27,7 @@ There are several types of names beings used without a clear structure. Some eve
 
 ## Design
 <!-- How will this be implemented? -->
-Use the Jira board issue title as PR and branch title. For example this fictive issue for Summa (SUM-415) with description "Add documentation for undocumented code" will have a branch named "sum-415-add-documentation-for-undocumented-code" and it's PR will should be named "SUM-415 Add documentation for undocumented code". For branches and PRs that do not have an issue in Jira -> create a ticket in Jira.
+Use the Jira board issue title as PR and branch title. For example this fictive issue for Summa (SUM-415) with description "Add documentation for undocumented code" will have a branch named "sum-415/add-documentation-for-undocumented-code" and it's PR will should be named "SUM-415 Add documentation for undocumented code". For branches and PRs that do not have an issue in Jira -> create a ticket in Jira.
 
 Set of labels that can be used to give an indication of the type of the PR:
 - Bugfix -> Something isn’t working
