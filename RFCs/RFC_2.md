@@ -22,7 +22,7 @@ The goal is to have one naming convention for PR's and branches such that it cre
 
 ## Motivation
 <!-- What is the current state of the world? Why is this change being proposed? -->
-There are several types of names beings used without a clear structure. Some even use the name to indicate if it is an enchancement, feature, bugfix, etc... This does not give an organised or professional impression. Cleaning this mess up would, in time, help enhance the education of our developers and keeps our codebase organised.
+There are several types of names beings used without a clear structure. Some even use the name to indicate if it is an enchancement, feature, bugfix, etc... This does not give an organised or professional impression. Cleaning this up would, in time, help enhance the education of our developers and keeps our codebase organised.
 
 
 ## Design
