@@ -30,7 +30,7 @@ There is currently no standard code style being used, outside of the Summa proje
 ## Design
 [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) will be used to check and fix the style of the php code that has been commited.
 
-Using a github workflow action, found in the `.github` folder, we'll enable the check after each commit on a PR. This workflow will check the files that have been changed compared to the main branch.
+Using a github workflow action, found in the `.github` folder, we'll enable the check after each commit on a PR. This workflow will check the files that have been changed compared to the target branch.
 
 Also added is a composer command, found in `composer.json`, to check and fix the code styling on a local machine using `composer phpcs` and `composer phpcs-fix` respectively.
 
