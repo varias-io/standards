@@ -1,7 +1,7 @@
 {
-    "name": "varias/php",
+    "name": "varias/project-template",
     "type": "project",
-    "description": "Varias PHP standards",
+    "description": "Varias PHP template",
     "require": {
         "php": "^8.1"
     },
