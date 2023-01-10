@@ -15,7 +15,7 @@ jobs:
           extensions: ctype, fileinfo, imagick, json, mbstring, openssl, pdo, tokenizer, xml
       - uses: "ramsey/composer-install@v2"
         with:
-          working-directory: "api/src"
+          working-directory: "src"
           composer-options: "--no-scripts"
       - uses: "ramsey/composer-install@v2"
         with:
