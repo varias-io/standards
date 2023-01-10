@@ -39,11 +39,6 @@ Set of labels that can be used to give an indication of the type of the PR:
 - Housekeeping -> Something not directly code related that keeps or makes the codebase clean(er) 
 - Refactor -> A change to the codebase with no impact on the current behaviour
 
-## Drawbacks
-<!-- What are the possible drawbacks of this proposal? ex. Higher costs, less flexibility for the developer, etc... -->
-The drawbacks for this proposal could be:
-- Cluttering Jira with new issues
-- Long branch names
 
 ## Revisions
 1. RFC created 
