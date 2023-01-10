@@ -25,7 +25,7 @@ The aim of this proposal is to ensure every project and developer conforms to th
 ## Motivation
 <!-- What is the current state of the world? Why is this change being proposed? -->
 
-There is currently no standard code style being used, outside of the Summa project. Developers use different code styles that are common by their respective IDE and this may lead to repeated file changes that are purely style changes. 
+There are currently not a lot of coding style being used. Developers use different code styles that are common by their respective IDE and this may lead to repeated file changes that are purely style changes. 
 
 ## Design
 [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) will be used to check and fix the style of the php code that has been commited.
