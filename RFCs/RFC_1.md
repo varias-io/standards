@@ -20,7 +20,7 @@ We should use some company wide standards in order to keep the styling of code a
 ## Goal
 <!-- What problems are you trying to solve? What problems are you not trying to solve? -->
 
-The aim of this proposal is to ensure every project and developer conforms to the same styling specification. This will help lower the amount of file changes that can be made by developers when they use their custom code formatter. This will also declutter the git history when used correctly.
+The aim of this proposal is to ensure every project and developer conforms to the same styling specification, and to provide new projects with a extensible starting point with standards. This will help lower the amount of file changes that can be made by developers when they use their custom code formatter. This will also declutter the git history when used correctly.
 
 ## Motivation
 <!-- What is the current state of the world? Why is this change being proposed? -->
