@@ -1,0 +1,16 @@
+#!/bin/bash
+. "$(dirname "$0")/_/husky.sh"
+
+# --
+# Check if you are using a valid branch-name ;-)
+# -- 
+LC_ALL=C
+local_branch="$(git rev-parse --abbrev-ref HEAD)"
+valid_branch_regex="^[A-Z0-9._-]+\/(housekeeping|refactor|feature|bugfix|hotfix|release|test)\/[a-z0-9._-]+$"
+message="There is something wrong with your branch name!\n
+You should rename your branch to a valid name and try again.\n
+Branch names in this project must adhere to this contract: $valid_branch_regex.\n
+Your commit is now rejected."
+
+# Actual check and exit if fail
+(echo $local_branch | grep -Eq "$valid_branch_regex") && [ $? -eq 0 ] && echo || (echo $message && exit 1)
