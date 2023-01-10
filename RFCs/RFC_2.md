@@ -36,7 +36,7 @@ Set of labels that can be used to give an indication of the type of the PR:
 - Enhancement -> An improvement to existing functionality OR the developer experience
 - Feature -> A new feature
 - Help Wanted -> The assignee encountered an issue and need help
-- Housekeeping -> Something that keeps or makes the codebase clean(er) 
+- Housekeeping -> Something not directly code related that keeps or makes the codebase clean(er) 
 - Refactor -> A change to the codebase with no impact on the current behaviour
 
 ## Drawbacks
